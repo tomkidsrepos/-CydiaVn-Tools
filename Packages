@@ -319,6 +319,44 @@ Name: Inspell
 Sponsor: Xsellize.com <http://xsellize.com>
 
 Package: gsmicon
+Version: 3.0.4
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: Cydia.vn <repo@cydia.vn>
+Filename: ./gsmicon_3.0.4_iphoneos-arm.deb
+Size: 44324
+MD5sum: 676bec1613bace53b3208ebb27b3060b
+SHA1: 186eb761d85cc0bcf3a8d06bd702055980bc8ff7
+SHA256: 22339af840a5094e071cde95681c9eb3a99dba6bf52c52b68cab960c97ac7045
+Section: !CydiaVn-Tools
+Priority: required
+Homepage: http://cydia.vn/
+Description: Icon cho Cydia.vn source!
+Author: Cydia.vn <repo@cydia.vn>
+Depiction: http://cydia.gsm.vn/t96/
+Name: Cydia.vn Icon
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
+Package: gsmicon
+Version: 4.0-2
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: Cydia.vn <repo@cydia.vn>
+Filename: ./gsmicon_4.0-2_iphoneos-arm.deb
+Size: 30734
+MD5sum: cb686eddb025fe61c1eaaf2f0eb7192e
+SHA1: c21cf58ba4a04b033c912feae05056e943612b57
+SHA256: 28b49de51477aa1a9f1108a3b5a799f3baa86ab1e3fa129e46b8ea74a25996e9
+Section: !CydiaVn-Tools
+Priority: required
+Homepage: http://cydia.vn/
+Description: Icon cho Cydia.vn source!
+Author: Cydia.vn <repo@cydia.vn>
+Depiction: http://cydia.gsm.vn/t96/
+Name: Cydia.vn Icon
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
+Package: gsmicon
 Version: 4.0-2
 Architecture: iphoneos-arm
 Essential: yes
@@ -2685,6 +2723,25 @@ Name: App Language Switcher
 Sponsor: Cydia.vn Blog's <http://cydia.vn/>
 
 Package: vn.gsm.applocker
+Version: 2.2.6
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Depends: gsmicon, mobilesubstrate, applist (>= 1.4), preferenceloader
+Filename: ./AppLocker_2.2.6vi.deb
+Size: 92860
+MD5sum: 4ebcdf9fd1c18edc2e9d179f224d9318
+SHA1: dff1b6559ff22ee9add264fc6a41bd53de438c2e
+SHA256: bdbe4c805d9963d89285c5477e76db68a9be4f1a9940de1204b3df05281a1657
+Section: !CydiaVn-Tools
+Homepage: http://cydia.vn/
+Description: Lock apps, folders, home screen layout and more!
+Author: cjori <repo@cydia.vn>
+Depiction: http://cydia.vn/depic/t2110/
+Icon: file:///Library/PreferenceBundles/applockerPrefBundle.bundle/applocker@2x.png
+Name: Applocker
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
+Package: vn.gsm.applocker
 Version: 2.4
 Architecture: iphoneos-arm
 Maintainer: Cydia.vn <repo@cydia.vn>
@@ -3025,6 +3082,28 @@ Description: AppSync allows you to sync and install cracked iOS applications.
 Author: Dissident <repo@cydia.vn>
 Depiction: http://cydia.gsm.vn/t2086/
 Name: AppSync for iOS 5.0+
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
+Package: vn.gsm.appsync70plus
+Version: 4.4-1
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Installed-Size: 88
+Pre-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, ppsync, vn.gsm.appsync50plus, com.heaveniphone.appsync70plus
+Replaces: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, ppsync, vn.gsm.appsync50plus, com.heaveniphone.appsync70plus
+Provides: appsync
+Filename: ./appsync70plus_4.4-1.deb
+Size: 11790
+MD5sum: 3f9d573f677d8ea906a7ff0c5b1fb245
+SHA1: 938908c442aa4ba86e4a5112f8cb42348310d1e9
+SHA256: 92733676721c8194266ec5fca40a16c66f781a6e080ec37ea7aecf4d8dbb7d6c
+Section: !CydiaVn-Tools
+Homepage: http://cydia.vn/
+Description: AppSyncPlus allows you to sync and install unsigned iOS applications. Works on iOS 5, 6, and 7.
+Author: fakhan
+Depiction: http://cydia.gsm.vn/t4522/
+Name: AppSync for iOS 5, 6, 7
 Sponsor: Cydia.vn Blog's <http://cydia.vn/>
 
 Package: vn.gsm.appsync70plus
@@ -4000,6 +4079,22 @@ Depiction: http://cydia.vn/depic/t4980/
 Icon: file:///Library/Activator/Listeners/com.bensge.auki.compose/Icon-small@2x.png
 Name: auki
 Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
+Package: vn.gsm.aupiforipad
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Depends: winterboard
+Filename: ./aupiforipad_v1.1.deb
+Size: 65619864
+MD5sum: 6a0678dcc1eae1b1c434613ac591e2b6
+SHA1: 57cc8a5858c37eeb1207d2750980b10445c2305e
+SHA256: f41455ab36dce80d5b2cfc6eb2837d972ea6bfa4cefbf4fa177487e17a43de86
+Section: !CydiaVn-Tools
+Description: aupi iPad version.
+Author: Aviorrok
+Depiction: http://cydia.vn/depic/t5505/
+Name: aupi for iPad
 
 Package: vn.gsm.auris
 Version: 1.0-1
@@ -5141,6 +5236,27 @@ Name: BannerImage
 Sponsor: Cydia.vn Blog's <http://cydia.vn/>
 
 Package: vn.gsm.barrel
+Version: 1.7.4.0-1
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Installed-Size: 1393
+Depends: firmware (>= 3.1), mobilesubstrate, libhide, gsc.armv7, preferenceloader
+Conflicts: net.limneos.sbrotator (<= 2.1.5), vn.gsm.sbrotator (<= 2.1.5)
+Filename: ./Barrel_1.7.4.0-1vi.deb
+Size: 550720
+MD5sum: 91733bcc03430492b77b6641f5290e2a
+SHA1: 70ab531005c29af81d0a35747703bc73b96ee405
+SHA256: fa70ff78bd3fc57c01fbe86e28812c87d587cb3788a8e805d53adf830e7d03c5
+Section: !CydiaVn-Tools
+Homepage: http://cydia.vn/
+Description: 3D and other effects on icon pages!
+Author: Aaron Ash (Charybdis) <repo@cydia.vn>
+Depiction: http://cydia.vn/depic/t1/
+Icon: file:///Library/PreferenceBundles/threedeeprefs.bundle/threedeeprefs@2x.png
+Name: Barrel
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
+Package: vn.gsm.barrel
 Version: 1.8.0.2-1
 Architecture: iphoneos-arm
 Maintainer: Cydia.vn <repo@cydia.vn>
@@ -5170,6 +5286,25 @@ Size: 1373666
 MD5sum: 171d8d1dd705e782ba9104530d168f4c
 SHA1: 83a6e94cbf0c447b1360cba416847a2d7fef7de3
 SHA256: 04ec0e3e81e268a9afa6c386320212b09f60bad3344614dc3c59db7676a68b21
+Section: !CydiaVn-Tools
+Homepage: http://cydia.vn/
+Description: 3D and other effects on icon pages!
+Author: Aaron Ash (Charybdis) <repo@cydia.vn>
+Depiction: http://cydia.vn/depic/t1/
+Icon: file:///Applications/BarrelSettings.app/Barrel_AppIcon57x57.png
+Name: Barrel
+
+Package: vn.gsm.barrel
+Version: 1.8.1.1-1
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Depends: firmware (>= 3.1), mobilesubstrate, gsc.armv7, preferenceloader
+Conflicts: net.limneos.sbrotator (<= 2.1.5), vn.gsm.sbrotator (<= 2.1.5)
+Filename: ./vn.gsm.barrel_1.8.1.1-1_iphoneos-arm.deb
+Size: 1841532
+MD5sum: ca68b9cc1580e90d70c000e11a53fe8d
+SHA1: d9f78bfda40c5387b1f7b66749488337fed299d7
+SHA256: 84c1ae47302ed0b9a4eb942ec2d4310d4ce6327abb5f78dc06fc6ce7668edde5
 Section: !CydiaVn-Tools
 Homepage: http://cydia.vn/
 Description: 3D and other effects on icon pages!
@@ -9225,6 +9360,24 @@ Author: ravirajm
 Depiction: http://cydia.gsm.vn/t4901/
 Icon: file:///Library/PreferenceBundles/composeforios7prefs.bundle/composeforios7prefs@2x.png
 Name: Compose for iOS 7
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
+Package: vn.gsm.conceptlsforios7
+Version: 1.3
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Depends: gsmicon, cydget
+Filename: ./conceptlsforios7_1.3.deb
+Size: 2504628
+MD5sum: 40a4bbf2c7815d770841680ecc58729f
+SHA1: 6ac672065b9d15e5dac4e5389e6d0eca11d06910
+SHA256: 983422e92512f2187162d323815722d170101c6aeeb33919377369b35dedf298
+Section: !CydiaVn-Tools
+Homepage: http://cydia.vn/
+Description: ConceptLS for iOS7 is the most advanced lockscreen available.
+Author: JunesiPhone
+Depiction: http://cydia.vn/depic/t4689/
+Name: ConceptLS for iOS7
 Sponsor: Cydia.vn Blog's <http://cydia.vn/>
 
 Package: vn.gsm.confero
@@ -15713,6 +15866,26 @@ Maintainer: Cydia.vn <repo@cydia.vn>
 Pre-Depends: apt, findutils, shell-cmds
 Conflicts: org.altervista.exilecom.icleaner, com.exile90.icleanerpro, vn.gsm.icleanerprobeta
 Replaces: org.altervista.exilecom.icleaner, com.exile90.icleanerpro, vn.gsm.icleanerprobeta
+Filename: ./vn.gsm.icleanerpro_7.5.0k_iphoneos-arm.deb
+Size: 2843940
+MD5sum: fb506733b5669a9a4255becfbf2cda90
+SHA1: ed5791d5fdd628452d68b9a947066dfba7a0a872
+SHA256: b0f072d7c30c247a4ba67a887495944be82f61fdc87bf46047f5c4754f14b2ce
+Section: !CydiaVn-Tools
+Homepage: http://cydia.vn/
+Description: The ultimate iPhone, iPod and iPad system cleaner & optimizer
+Author: Exile.90
+Depiction: http://cydia.vn/depic/t4096/
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
+
+Package: vn.gsm.icleanerpro
+Version: 7.5.0k
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Pre-Depends: apt, findutils, shell-cmds
+Conflicts: org.altervista.exilecom.icleaner, com.exile90.icleanerpro, vn.gsm.icleanerprobeta
+Replaces: org.altervista.exilecom.icleaner, com.exile90.icleanerpro, vn.gsm.icleanerprobeta
 Filename: ./icleanerpro_v7.5.0k.deb
 Size: 2854148
 MD5sum: 525f5b9d951eb4dfc12818ebc4ef68cb
@@ -17956,6 +18129,24 @@ Description: access search engines from Notification Center
 Author: iMokhles
 Depiction: http://cydia.gsm.vn/t4249/
 Name: iWebSearch Pro
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
+Package: vn.gsm.iwidgetpack4byjune
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Depends: com.eldwin.iwidgets
+Filename: ./iwidgetpack4byjune_1.0.deb
+Size: 322946
+MD5sum: d5039db5e250907f719185f263613f48
+SHA1: 3828e90f49142614f2782cafcba4952fdba22896
+SHA256: d2dcf0c3f24dcedc2fa3536873d744587ee3970b1ed7f22ef5d701cd10ae0144
+Section: !CydiaVn-Tools
+Homepage: http://cydia.vn/
+Description: Clocks Includes Nexus, Reflection, and Line time.
+Author: JunesiPhone <street.visions@yahoo.com>
+Depiction: http://cydia.vn/depic/t5101/
+Name: iWidget Pack 4 by June
 Sponsor: Cydia.vn Blog's <http://cydia.vn/>
 
 Package: vn.gsm.jellyboard
