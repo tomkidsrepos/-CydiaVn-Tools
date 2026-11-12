@@ -19120,12 +19120,12 @@ Version: 5.0.3
 Architecture: iphoneos-arm
 Maintainer: Thieu.Bocap <support@gsm.vn>
 Depends: gsmicon, mobilesubstrate, preferenceloader
-Conflicts: jp.novi.FakeClockUp, com.hackyouriphone.fakeclockup, com.hackyouriphone.fakeclockupita, com.xsellize.fakeclockup, vn.gsm.fakeclockup
-Filename: ./SpeedIntensifier_5.0.3.deb
-Size: 8610
-MD5sum: 19ff53d3012170575be66d45738c49c6
-SHA1: 90358d95b1f6776fd897f360f6ac2e99bdeb074c
-SHA256: fda4579169c9509b268ec891a7c79237311db8f1ffed5b8fda8b24007a6ad008
+Conflicts: jp.novi.fakeclockup, com.hackyouriphone.fakeclockup, com.hackyouriphone.fakeclockupita, com.xsellize.fakeclockup, vn.gsm.fakeclockup
+Filename: ./vn.gsm.speedintensifier_5.0.3_iphoneos-arm.deb
+Size: 8596
+MD5sum: c493153740460eb5435f5bb24a56fd26
+SHA1: fafe885f57922a1bb67727e734814139c3fc3b96
+SHA256: e2f953b07c9fc390c6385a33450a79ee7cf36f611d674c5328c4869a09efb272
 Section: !GSMVN-Tools
 Homepage: http://cydia.vn/
 Description: This tweak will speed up the animation transitions to make your device Look faster.
@@ -19140,12 +19140,12 @@ Version: 5.0.3
 Architecture: iphoneos-arm
 Maintainer: Thieu.Bocap <support@gsm.vn>
 Depends: gsmicon, mobilesubstrate, preferenceloader
-Conflicts: jp.novi.fakeclockup, com.hackyouriphone.fakeclockup, com.hackyouriphone.fakeclockupita, com.xsellize.fakeclockup, vn.gsm.fakeclockup
-Filename: ./vn.gsm.speedintensifier_5.0.3_iphoneos-arm.deb
-Size: 8596
-MD5sum: c493153740460eb5435f5bb24a56fd26
-SHA1: fafe885f57922a1bb67727e734814139c3fc3b96
-SHA256: e2f953b07c9fc390c6385a33450a79ee7cf36f611d674c5328c4869a09efb272
+Conflicts: jp.novi.FakeClockUp, com.hackyouriphone.fakeclockup, com.hackyouriphone.fakeclockupita, com.xsellize.fakeclockup, vn.gsm.fakeclockup
+Filename: ./SpeedIntensifier_5.0.3.deb
+Size: 8610
+MD5sum: 19ff53d3012170575be66d45738c49c6
+SHA1: 90358d95b1f6776fd897f360f6ac2e99bdeb074c
+SHA256: fda4579169c9509b268ec891a7c79237311db8f1ffed5b8fda8b24007a6ad008
 Section: !GSMVN-Tools
 Homepage: http://cydia.vn/
 Description: This tweak will speed up the animation transitions to make your device Look faster.
